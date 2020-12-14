@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: tsuyo_jfrog_github                   # Change to your integration
-      path: tsuyo_jfrog/test-pipelines # Change to your repo
+      path: tsuyo-jfrog/test-pipelines # Change to your repo
 
 pipelines:
   - name: quickstart_hello_world
